@@ -1,4 +1,4 @@
-package SistemaEducacion;
+package SistemaGestion;
 
 import java.util.List;
 
@@ -28,6 +28,14 @@ public class Administrativo extends Persona {
 
     public void setResponsabilidades(List<String> responsabilidades) {
         this.responsabilidades = responsabilidades;
+    }
+
+    @Override
+    public String toString() {
+        return "Administrativo{" +
+                "cargos=" + cargos +
+                ", responsabilidades=" + responsabilidades +
+                '}';
     }
 
     public void method() {

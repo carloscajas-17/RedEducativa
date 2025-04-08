@@ -1,4 +1,4 @@
-package SistemaEducacion;
+package SistemaGestion;
 
 import java.util.GregorianCalendar;
 import java.util.List;
@@ -43,5 +43,14 @@ public class Visitante extends Persona {
 
     public void method() {
         // Implementación pendiente
+    }
+
+    @Override
+    public String toString() {
+        return "Visitante{" +
+                "motivo='" + motivo + '\'' +
+                ", fechaEntrada=" + fechaEntrada +
+                ", fechaSalida=" + fechaSalida +
+                '}';
     }
 }

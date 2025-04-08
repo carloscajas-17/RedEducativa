@@ -1,4 +1,4 @@
-package SistemaEducacion;
+package SistemaGestion;
 
 import java.util.List;
 
@@ -70,6 +70,18 @@ public class Persona {
 
     public void method() {
         // Implementación pendiente
+    }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "cedula='" + cedula + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", contacto='" + contacto + '\'' +
+                ", correoElectronico='" + correoElectronico + '\'' +
+                ", direccion=" + direccion +
+                '}';
     }
 }
 

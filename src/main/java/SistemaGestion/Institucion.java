@@ -1,3 +1,5 @@
+package SistemaGestion;
+
 import java.util.GregorianCalendar;
 
 public class Institucion {
@@ -43,6 +45,16 @@ public class Institucion {
 
     public void setRol(String rol) {
         this.rol = rol;
+    }
+
+    @Override
+    public String toString() {
+        return "Institucion{" +
+                "idOficial='" + idOficial + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", fechaDeInicio=" + fechaDeInicio +
+                ", rol='" + rol + '\'' +
+                '}';
     }
 
     public void method() {

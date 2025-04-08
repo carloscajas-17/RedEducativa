@@ -1,4 +1,4 @@
-package SistemaEducacion;
+package SistemaGestion;
 
 import java.util.List;
 
@@ -32,6 +32,14 @@ public class Docente extends Persona {
 
     public void method() {
         // Implementación pendiente
+    }
+
+    @Override
+    public String toString() {
+        return "Docente{" +
+                "titulosAcademicos=" + titulosAcademicos +
+                ", areasDeEspecializacion=" + areasDeEspecializacion +
+                '}';
     }
 }
 

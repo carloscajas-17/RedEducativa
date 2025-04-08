@@ -1,4 +1,4 @@
-package SistemaEducacion;
+package SistemaGestion;
 
 public class Direccion {
     private String tipo;
@@ -74,6 +74,19 @@ public class Direccion {
 
     public void setPais(String pais) {
         this.pais = pais;
+    }
+
+    @Override
+    public String toString() {
+        return "Direccion{" +
+                "tipo='" + tipo + '\'' +
+                ", callePrincipal='" + callePrincipal + '\'' +
+                ", calleSecundaria='" + calleSecundaria + '\'' +
+                ", numeracion='" + numeracion + '\'' +
+                ", provincia='" + provincia + '\'' +
+                ", ciudad='" + ciudad + '\'' +
+                ", pais='" + pais + '\'' +
+                '}';
     }
 
     public void method() {
